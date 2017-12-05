@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Context>
+
+  <Resource name="jdbc/UST-3CSA-DS" auth="Container"
+            type="javax.sql.DataSource" username="admin" password="1234"
+            driverClassName="net.sourceforge.jtds.jdbc.Driver" 
+            url="jdbc:jtds:sqlserver://localhost:1433;DatabaseName=CJ_DATABASE;SelectMethod=cursor;"
+            maxActive="50" 
+            />
+
+</Context>
